@@ -1,0 +1,27 @@
+from turtle import Turtle
+
+
+class Scoreboard(Turtle):
+    def __init__(self):
+        super().__init__()
+        self.color('white')
+        self.up()
+        self.hideturtle()
+        self.p2_score = 0
+        self.p1_score = 0
+        self.update_scoreboard()
+
+    def update_scoreboard(self):
+        self.clear()
+        self.goto(-100, 200)
+        self.write(self.p2_score, align='center', font=("Courier", 40, "normal"))
+        self.goto(100, 200)
+        self.write(self.p1_score, align='center', font=("Courier", 40, "normal"))
+
+    def p2_point(self):
+        self.p2_score += 1
+        self.update_scoreboard()
+
+    def p1_point(self):
+        self.p1_score += 1
+        self.update_scoreboard()

@@ -3,14 +3,14 @@ The Turtle Pong Game is a classic Pong arcade game implemented using the Turtle 
 
 # Features
 Play a two-player Pong game with realistic paddle and ball movements.
-Control the paddles using the arrow keys (Player 1) and 'W'/'S' keys (Player 2).
-Bounce the ball off paddles and walls to score points.
-Track player scores using an interactive scoreboard.
-Enjoy smooth, real-time gameplay using the Turtle graphics library.
 
-# Prerequisites
-Python 3.x
-turtle module (standard library)
+Control the paddles using the arrow keys (Player 1) and 'W'/'S' keys (Player 2).
+
+Bounce the ball off paddles and walls to score points.
+
+Track player scores using an interactive scoreboard.
+
+Enjoy smooth, real-time gameplay using the Turtle graphics library.
 
 # Usage
 1. Make sure you have Python installed. You can download it from the official Python website.
@@ -48,6 +48,7 @@ This project is licensed under the MIT License.
 
 # Acknowledgments
 The app was created to showcase the implementation of a classic Pong game using the Turtle graphics library in Python.
+
 Challenge a friend to a friendly game of Pong with the Turtle Pong Game. Engage in exciting rallies and see who can score the most points!
 
 
